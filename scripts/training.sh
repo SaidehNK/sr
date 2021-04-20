@@ -1,4 +1,4 @@
-THEANO_FLAGS='device=cuda8' python3 -mnnet.run.srl.run \
+THEANO_FLAGS='device=gpu0' python3 -mnnet.run.srl.run \
 --train conll2009.train \
 --test conll2009.dev \
 --data_partition dev \
